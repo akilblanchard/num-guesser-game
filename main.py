@@ -2,6 +2,9 @@ from random import randint
 
 #takes input from the user
 def guess():
+    '''
+    Function takes in the guess from the user and ensures that the guess is within the specified parameters
+    '''
     while True:
         try:
             user_guess = (int(input("Type a number between 1-10: " )))
