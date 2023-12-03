@@ -4,7 +4,7 @@ from random import randint
 def guess():
     while True:
         try:
-            user_guess = (input(int("Type a number between 1-10: " )))
+            user_guess = (int(input("Type a number between 1-10: " )))
             if user_guess <=10:
                 return user_guess
             else:
