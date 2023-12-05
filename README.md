@@ -1,10 +1,14 @@
 # Nnumber Guessing Game
 ---
 This a number guessing game where the computer will pick a number in a given range and the player will attempt to guess that number
+
 ---
+
 ## Motivation behind this project
 Honestly, this project was done just because I wanted to try doing it.
+
 ---
+
 ## What I Utilized
 ~ Implemented an error-handling setup making use of a try-except block. Capturing ValueError exceptions to handle cases where the user input cannot be converted to int, providing an explanatory error messages.
 
